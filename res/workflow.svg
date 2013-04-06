@@ -26,12 +26,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.07"
-     inkscape:cx="62.390199"
-     inkscape:cy="412.1936"
+     inkscape:zoom="0.18915106"
+     inkscape:cx="1193.7487"
+     inkscape:cy="-704.60474"
      inkscape:document-units="px"
-     inkscape:current-layer="layer8"
-     showgrid="true"
+     inkscape:current-layer="layer9"
+     showgrid="false"
      inkscape:window-width="1280"
      inkscape:window-height="738"
      inkscape:window-x="-8"
@@ -4730,13 +4730,9 @@
      id="layer4"
      inkscape:groupmode="layer">
     <g
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
-       inkscape:export-filename="D:\Devel\neco\firstapp\res\step-3.png"
-       transform="matrix(1.0978001,0,0,1.0978001,-191.26366,590.04445)"
-       id="g8059">
+       id="g11392">
       <g
-         transform="matrix(1.7413571,0,0,1.7413571,-275.98858,-75.501493)"
+         transform="matrix(1.911662,0,0,1.911662,-494.24395,507.1589)"
          id="g4236-8-5-4">
         <rect
            style="font-size:12px;fill:#ffffff;fill-opacity:1;stroke:none"
@@ -4785,7 +4781,7 @@
       </g>
       <g
          id="g5629-3"
-         transform="matrix(1.584635,0,0,1.584635,-51.904526,-510.43453)">
+         transform="matrix(1.7396125,0,0,1.7396125,-248.24445,29.689372)">
         <path
            inkscape:connector-curvature="0"
            id="path5421-7"
@@ -4823,18 +4819,18 @@
            transform="matrix(0.09179878,0,0,0.09179878,263.89649,799.61014)"
            id="g5583-7">
           <polygon
-             points="107.644,470.877 74.633,100.62 437.367,100.62 404.321,470.819 255.778,512 "
+             points="255.778,512 107.644,470.877 74.633,100.62 437.367,100.62 404.321,470.819 "
              id="polygon5474-5"
              transform="translate(-206.442,1400.8532)"
              style="fill:#ee8b16;fill-opacity:1" />
           <polygon
              id="polygon5480-4"
-             points="143.219,188.488 154.38,313.627 256,313.627 256,268.217 195.91,268.217 191.76,221.716 256,221.716 256,176.305 255.843,176.305 142.132,176.305 "
+             points="195.91,268.217 191.76,221.716 256,221.716 256,176.305 255.843,176.305 142.132,176.305 143.219,188.488 154.38,313.627 256,313.627 256,268.217 "
              style="fill:#115c84;fill-opacity:1"
              transform="translate(-206.442,1400.8532)" />
           <polygon
              id="polygon5482-1"
-             points="201.994,336.333 177.419,336.333 156.409,336.333 162.771,407.634 255.791,433.457 256,433.399 256,386.153 255.801,386.206 205.227,372.55 "
+             points="255.791,433.457 256,433.399 256,386.153 255.801,386.206 205.227,372.55 201.994,336.333 177.419,336.333 156.409,336.333 162.771,407.634 "
              style="fill:#115c84;fill-opacity:1"
              transform="translate(-206.442,1400.8532)" />
           <path
@@ -4859,21 +4855,21 @@
              style="fill:#ee8b16;fill-opacity:1" />
           <polygon
              id="polygon5496-4"
-             points="311.761,313.627 306.49,372.521 255.843,386.191 255.843,433.435 348.937,407.634 349.62,399.962 360.291,280.411 361.399,268.217 349.162,268.217 255.843,268.217 255.843,313.627 "
+             points="348.937,407.634 349.62,399.962 360.291,280.411 361.399,268.217 349.162,268.217 255.843,268.217 255.843,313.627 311.761,313.627 306.49,372.521 255.843,386.191 255.843,433.435 "
              style="fill:#115c84;fill-opacity:1"
              transform="translate(-206.442,1400.8532)" />
           <polygon
              id="polygon5498-6"
-             points="366.442,211.509 368.511,188.488 369.597,176.305 255.843,176.305 255.843,204.509 255.843,221.605 255.843,221.716 365.385,221.716 365.385,221.716 365.531,221.716 "
+             points="255.843,204.509 255.843,221.605 255.843,221.716 365.385,221.716 365.385,221.716 365.531,221.716 366.442,211.509 368.511,188.488 369.597,176.305 255.843,176.305 "
              style="fill:#115c84;fill-opacity:1"
              transform="translate(-206.442,1400.8532)" />
         </g>
       </g>
       <text
          xml:space="preserve"
-         style="font-size:302.49752808px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Centaur;-inkscape-font-specification:Centaur"
-         x="268.54648"
-         y="702.51025"
+         style="font-size:332.08181763px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Centaur;-inkscape-font-specification:Centaur"
+         x="41.260952"
+         y="1216.3127"
          id="text5648-0"
          sodipodi:linespacing="125%"
          transform="scale(0.75434476,1.3256538)"
@@ -4881,11 +4877,11 @@
          inkscape:transform-center-y="-18.017115"><tspan
            sodipodi:role="line"
            id="tspan5650-7"
-           x="268.54648"
-           y="702.51025">{</tspan></text>
+           x="41.260952"
+           y="1216.3127">{</tspan></text>
       <path
          inkscape:connector-curvature="0"
-         d="m 100.48068,815.86609 c -10.539177,0.055 -20.641054,4.90511 -23.896044,13.35297 -11.051126,28.6816 20.593965,45.96232 29.347704,52.30711 6.91678,5.01333 17.58931,11.71566 22.67122,23.22359 5.0819,-11.50793 15.73042,-18.21026 22.6472,-23.22359 8.75373,-6.34479 40.42283,-23.62551 29.37171,-52.30711 -6.94397,-18.02211 -45.09577,-19.6912 -52.01891,6.72451 -3.67792,-14.03335 -16.17848,-20.13986 -28.12288,-20.07748 z"
+         d="m 421.4453,1485.7023 c -11.56991,0.06 -22.65975,5.3849 -26.23308,14.6589 -12.13193,31.4867 22.60806,50.4575 32.21791,57.4228 7.59325,5.5036 19.30955,12.8614 24.88847,25.4948 5.57891,-12.6334 17.26886,-19.9912 24.8621,-25.4948 9.60985,-6.9653 44.37619,-25.9361 32.24427,-57.4228 -7.62309,-19.7847 -49.50615,-21.617 -57.10637,7.3822 -4.03762,-15.4058 -17.76074,-22.1096 -30.8733,-22.0411 z"
          id="path834-1"
          style="fill:#ee8b16;fill-opacity:1;stroke:none" />
     </g>
@@ -5540,6 +5536,19 @@
        style="fill:none;stroke:#ee8b16;stroke-width:3.4000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mendp)"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="D:\Devel\neco\firstapp\res\arrow.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer9"
+     inkscape:label="heart">
+    <path
+       style="fill:#ee8b16;fill-opacity:1;stroke:none;display:inline"
+       id="path834-1-05"
+       d="m 1498.3285,937.49092 c -11.5699,0.06 -22.6598,5.3849 -26.2331,14.6589 -12.1319,31.4867 22.6081,50.45748 32.2179,57.42278 7.5933,5.5036 19.3096,12.8614 24.8885,25.4948 5.5789,-12.6334 17.2688,-19.9912 24.8621,-25.4948 9.6098,-6.9653 44.3762,-25.93608 32.2443,-57.42278 -7.6231,-19.7847 -49.5062,-21.617 -57.1064,7.3822 -4.0376,-15.4058 -17.7608,-22.1096 -30.8733,-22.0411 z"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Devel\neco\firstapp\images\love.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
   </g>

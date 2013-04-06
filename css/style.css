@@ -1294,3 +1294,12 @@ h4.alt-title:before {
 		}
 
 
+	#slider #pruhl{
+
+		background: #000000;
+		position: absolute;
+		height: 460px;
+		width: 1600px;
+	}
+
+

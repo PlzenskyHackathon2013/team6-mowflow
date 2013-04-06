@@ -12,4 +12,5 @@ logs
 results
 
 npm-debug.log
+# nemusi byt v gitignore resi "npm rebuild"
 node_modules

@@ -30,10 +30,6 @@
 	<link rel="stylesheet" href="css/superfish.css" media="screen" />
 	<!-- Template Styles-->
 	<link rel="stylesheet" href="css/style.css" media="screen" />
-	<!-- PrettyPhoto -->
-	<link rel="stylesheet" href="css/prettyPhoto.css" media="screen" />
-	<!-- Flexslider -->
-	<link rel="stylesheet" href="css/flexslider.css" media="screen" />
 	<!-- Layout and Media queries-->
 	<link rel="stylesheet" href="css/layout.css" media="screen" />
 	<!--[if lt IE 9]>
@@ -48,10 +44,6 @@
 	
 	<!-- Favicons
 	================================================== -->
-	<link rel="shortcut icon" href="images/favicon.ico">
-	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 	
 	
 	<!-- For Old Browsers
@@ -102,55 +94,17 @@
 			<!-- END HEADER -->
 			
 			
+						
 			<!-- BEGIN SLIDER -->
-			<section id="slider" class="loading">
+			<section id="slider">
 				
 				<div class="container">
 					<div class="grid_12">
-						
-						<div class="flexslider">
-							<ul class="slides">
-								<!-- Begin Single Slide -->
-								<li>
-									<img src="images/sample/slide1.png" />
-									<div class="slide-caption">
-										<h2>Save time and money</h2>
-										<p>Lorem ipsum dolor sit amet, con- sectetur adipiscing elit. Curabitur id ante nisi. In imperdiet sem  ante nisiac eros vestibulum facilisis.</p>
-										<!-- .btn -->
-										<a href="#" class="btn large">
-											<span class="btn-inner">Buy theme<em>click here</em><i class="marker"></i></span>
-										</a>
-										<!-- //.btn -->
-									</div>
-								</li>
-								<!-- End Single Slide -->
-								<li>
-									<img src="images/sample/slide2.png" />
-									<div class="slide-caption">
-										<h2>cloud computing</h2>
-										<p>Lorem ipsum dolor sit amet, con- sectetur adipiscing elit. Curabitur id ante nisi. In imperdiet sem  ante nisiac eros vestibulum facilisis.</p>
-										<!-- .btn -->
-										<a href="#" class="btn large">
-											<span class="btn-inner">Buy theme<em>click here</em><i class="marker"></i></span>
-										</a>
-										<!-- //.btn -->
-									</div>
-								</li>
-								<li>
-									<img src="images/sample/slide3.png" />
-									<div class="slide-caption">
-										<h2>precise verification</h2>
-										<p>Lorem ipsum dolor sit amet, con- sectetur adipiscing elit. Curabitur id ante nisi. In imperdiet sem  ante nisiac eros vestibulum facilisis.</p>
-										<!-- .btn -->
-										<a href="#" class="btn large">
-											<span class="btn-inner">Buy theme<em>click here</em><i class="marker"></i></span>
-										</a>
-										<!-- //.btn -->
-									</div>
-								</li>
-							</ul>
-						</div>
-						
+						<div id="inter">
+							<div  id="obr1"><img src="images/step-1.png"/></div>	
+							<div  id="obr2"><img src="images/step-2.png"/></div>	
+							<div  id="obr3"><img src="images/step-3.png"/></div>
+						</div>	
 					</div>
 				</div>
 				
@@ -183,12 +137,13 @@
 						
 							<div class="intro-widget">
 										<h1>Subscribe for news</h1>
-										<form id="newsletter-form">
-											<input type="text" name="newsletter-text-input" id="newsletter-text-input" value="" placeholder="your email..." />
+											<form id="newsletter-form" action="sub.php" method="POST">
+												<input type="text" name="email" id="newsletter-text-input" value="" placeholder="your email..." />
 											<div class="submit-holder">
 												<input type="submit" value=""/>
 											</div>
 										</form>
+										
 									</div>
 								</div>
 							</div>
@@ -311,21 +266,6 @@
 									</div>
 									<!-- END REQUEST Widget -->
 									
-<<<<<<< HEAD
-									
-=======
-									<!-- BEGIN NEWSLETTER Widget -->
-									<div class="widget widget-newsletter">
-										<h4>Get our newsletter:</h4>
-										<form action="sub.php" method="POST">
-											<input type="text" name="emial" id="newsletter-text-input" value="" placeholder="your email..." />
-											<div class="submit-holder">
-												<input type="submit" value=""/>
-											</div>
-										</form>
-									</div>
-									<!-- END NEWSLETTER Widget -->
->>>>>>> 060416bd9fbb94ad44173162ffc75a5d96ea9791
 									
 								</div>
 							</div>
@@ -445,52 +385,17 @@
 	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
 	<!-- Mobile Menu -->
 	<script type="text/javascript" src="js/jquery.mobilemenu.js"></script>
-	<!-- Twitter -->
-	<script type="text/javascript" src="js/jquery.twitter.js"></script>
 	<!-- Elastslide -->
 	<script type="text/javascript" src="js/jquery.elastislide.js"></script>
 	<!-- Custom Checkbox -->
 	<script type="text/javascript" src="js/jquery.checkbox.js"></script>
-	<!-- Flexslider -->
-	<script type="text/javascript" src="js/jquery.flexslider.js"></script>
 	<!-- Reveal Modal -->
 	<script type="text/javascript" src="js/jquery.reveal.js"></script>
 	
 	<!-- Custom -->
 	<script type="text/javascript" src="js/custom.js"></script>
 	
-	<!-- Flexslider Init -->
-	<script type="text/javascript">
-		
-		$(window).load(function(){
-      $('.flexslider').flexslider({
-        animation: "fade",
-				controlNav: false,
-				// Callback API
-				before: function(){},
-				after: function(){}, 
-        start: function(slider){
-          $('#slider').removeClass('loading');
-        }
-      });
-    });
-		
-	</script>
 	
-	
-	<script type="text/javascript">
-
-		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-34673973-1']);
-		_gaq.push(['_trackPageview']);
-
-		(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		})();
-
-	</script>
 	
 </body>
 </html>

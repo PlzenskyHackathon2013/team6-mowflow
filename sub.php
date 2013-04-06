@@ -1,21 +1,16 @@
 <?php 
 
-	$email = $_POST["emial"];
+	$email = $_POST["email"]."\r\n";
+
 
 	if($email != null){
 
-		$soubor=fopen("email.txt", "w+");
+		$soubor=fopen("email.txt", "a");
 		fwrite($soubor, $email);
-
-		header("Location: index.php");
+		header("Location: index.html");
 
 	}else{
 		echo "Nezadali jste email";
 	}
 	
-	
-
-	
-
-
  ?>

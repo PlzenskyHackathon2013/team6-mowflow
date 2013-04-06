@@ -7,7 +7,7 @@
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>mowflow - simply create</title>
+	<title>OptimaSales - Home</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 	
@@ -103,54 +103,15 @@
 			
 			
 			<!-- BEGIN SLIDER -->
-			<section id="slider" class="loading">
+			<section id="slider">
 				
 				<div class="container">
 					<div class="grid_12">
-						
-						<div class="flexslider">
-							<ul class="slides">
-								<!-- Begin Single Slide -->
-								<li>
-									<img src="images/sample/slide1.png" />
-									<div class="slide-caption">
-										<h2>Save time and money</h2>
-										<p>Lorem ipsum dolor sit amet, con- sectetur adipiscing elit. Curabitur id ante nisi. In imperdiet sem  ante nisiac eros vestibulum facilisis.</p>
-										<!-- .btn -->
-										<a href="#" class="btn large">
-											<span class="btn-inner">Buy theme<em>click here</em><i class="marker"></i></span>
-										</a>
-										<!-- //.btn -->
-									</div>
-								</li>
-								<!-- End Single Slide -->
-								<li>
-									<img src="images/sample/slide2.png" />
-									<div class="slide-caption">
-										<h2>cloud computing</h2>
-										<p>Lorem ipsum dolor sit amet, con- sectetur adipiscing elit. Curabitur id ante nisi. In imperdiet sem  ante nisiac eros vestibulum facilisis.</p>
-										<!-- .btn -->
-										<a href="#" class="btn large">
-											<span class="btn-inner">Buy theme<em>click here</em><i class="marker"></i></span>
-										</a>
-										<!-- //.btn -->
-									</div>
-								</li>
-								<li>
-									<img src="images/sample/slide3.png" />
-									<div class="slide-caption">
-										<h2>precise verification</h2>
-										<p>Lorem ipsum dolor sit amet, con- sectetur adipiscing elit. Curabitur id ante nisi. In imperdiet sem  ante nisiac eros vestibulum facilisis.</p>
-										<!-- .btn -->
-										<a href="#" class="btn large">
-											<span class="btn-inner">Buy theme<em>click here</em><i class="marker"></i></span>
-										</a>
-										<!-- //.btn -->
-									</div>
-								</li>
-							</ul>
-						</div>
-						
+						<div id="inter">
+							<div  id="obr1"><img src="images/step-1.png"/></div>	
+							<div  id="obr2"><img src="images/step-2.png"/></div>	
+							<div  id="obr3"><img src="images/step-3.png"/></div>
+						</div>	
 					</div>
 				</div>
 				
@@ -169,30 +130,14 @@
 						<div class="grid_12">
 						
 							<div class="intro-widget">
-								<h1>What is <img src="images/logo2.png">?</h1>
-								<p id="description">
-									Mowflow will lead you through the whole development of&nbsp;multiplatform mobile application from the idea to the final desired product.
-							    </p>
+								<h2>Co je mowflow?</h2>
+
+								Mowflow Vás provede vývojem celé multiplatformní aplikace od návrhu, až po konečný produkt. V mowflow si budete moct rychle a snadno poskládat svůj design spolu s funkcemi aplikace.
 							</div><!-- //.intro-widget -->
 						
 						</div>
 					</div>
-				<!-- BEGIN NEWSLETTER Widget -->
-					<div class="container">
-						<div class="grid_12">
-						
-							<div class="intro-widget">
-										<h1>Subscribe for news</h1>
-										<form id="newsletter-form">
-											<input type="text" name="newsletter-text-input" id="newsletter-text-input" value="" placeholder="your email..." />
-											<div class="submit-holder">
-												<input type="submit" value=""/>
-											</div>
-										</form>
-									</div>
-								</div>
-							</div>
-									<!-- END NEWSLETTER Widget -->	
+					
 				</section>
 				<!-- END PRIMARY AREA -->
 				
@@ -208,25 +153,24 @@
 							
 								<li>
 									<figure class="img-holder">
-										<a><img src="images/service-img1.png" alt="" width="220" height="220" border="0" /></a>
+										<a href="#"><img src="images/service-img1.png" alt="" width="220" height="220" border="0" /></a>
 									</figure>
-									<h3><a>Drag'n'Drop Design Aproach</a></h3>
-									Design your UI fast and simply with visual builder.
-									
+									<h3><a href="#">Za jeden čas, více platforem!</a></h3>
+									S mowflow si budete moc vybrat jakou cílovou platformu bude chtít oslovit. Mowflow podporuje Apple, Android, Desktop browsers,  Windows mobile a další...
 								</li>
 								<li>
 									<figure class="img-holder">
-										<a><img src="images/service-img2.png" alt="" width="220" height="220" border="0" /></a>
+										<a href="#"><img src="images/service-img2.png" alt="" width="220" height="220" border="0" /></a>
 									</figure>
-									<h3><a>Bind Event With Action</a></h3>
-									Keep the UI and logic separated so it is easily maintainable. Define the&nbsp;rules for binding event with action on one place.  
+									<h3><a href="#">Presice callculation</a></h3>
+									Cras urna leo, adipiscing sed pharetra quis, vehicula at enim. Fusce eu dolor lectus. Phasellus condimentum scelerisque auctor. Etiam nec justo magna. Etiam nec diam eu augue adipiscing bibendum. Donec quis augue lectus. 
 								</li>
 								<li>
 									<figure class="img-holder">
-										<a><img src="images/service-img3.png" alt="" width="220" height="220" border="0" /></a>
+										<a href="#"><img src="images/service-img3.png" alt="" width="220" height="220" border="0" /></a>
 									</figure>
-									<h3><a>One Code Rule Them All</a></h3>
-									Export your application to distribution packages for Apple iOS, Google Android, Windows Phone and desktop browsers in one step &ndash; just to all platforms your customers love.
+									<h3><a href="#">J</a></h3>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus velit consectetur ligula rutrum vestibulum vel eget libero. Etiam volutpat tincidunt placerat. Phasellus consequat nunc eget orci gravida condimentum vel ut ligula. 
 								</li>
 								
 							</ul>
@@ -241,8 +185,75 @@
 				
 				<!-- BEGIN TERTIARY AREA -->
 				<section id="tertiary-home-area" class="home-area indent">
-				
+					
 						
+						<!-- BEGIN CUSTOMERS -->
+						<div class="widget-carousel customers-list">
+							<div class="container">
+								<div class="grid_12">
+									<h2>Who are our customers?</h2>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus velit consectetur ligula rutrum vestibulum vel eget libero.  <a href="#">All customers</a></p>
+									
+									<!-- Elastislide Carousel -->
+									<div id="carousel1" class="es-carousel-wrapper">
+										<div class="es-carousel">
+											<ul>
+												<li><a href="#"><img src="images/sm-logo1.png" alt="Customer 1 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo2.png" alt="Customer 2 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo3.png" alt="Customer 3 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo4.png" alt="Customer 4 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo1.png" alt="Customer 1 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo2.png" alt="Customer 2 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo3.png" alt="Customer 3 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo4.png" alt="Customer 4 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo1.png" alt="Customer 1 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo2.png" alt="Customer 2 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo3.png" alt="Customer 3 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo4.png" alt="Customer 4 Info" /></a></li>
+											</ul>
+										</div>
+									</div><!-- End Elastislide Carousel -->
+									
+								</div>
+							</div>
+						</div>
+						<!-- END CUSTOMERS -->
+						
+						
+						<!-- BEGIN PARTNERS -->
+						<div class="widget-carousel clients-list">
+							<div class="container">
+								<div class="grid_12">
+									<h2>Who do we work with?</h2>
+									<p>orem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus velit consectetur ligula rutrum vestibulum vel eget libero. Etiam volutpat tincidunt placerat. Phasellus consequat nunc eget orci gravida condimentum vel ut ligula. <a href="#">All partners</a></p>
+									
+									<!-- Elastislide Carousel -->
+									<div id="carousel2" class="es-carousel-wrapper">
+										<div class="es-carousel">
+											<ul>
+												<li><a href="#"><img src="images/sm-logo1.png" alt="Customer 1 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo2.png" alt="Customer 2 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo3.png" alt="Customer 3 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo4.png" alt="Customer 4 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo1.png" alt="Customer 1 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo2.png" alt="Customer 2 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo3.png" alt="Customer 3 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo4.png" alt="Customer 4 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo1.png" alt="Customer 1 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo2.png" alt="Customer 2 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo3.png" alt="Customer 3 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo4.png" alt="Customer 4 Info" /></a></li>
+											</ul>
+										</div>
+									</div><!-- End Elastislide Carousel -->
+									
+								</div>
+							</div>
+						</div>
+						<!-- END PARTNERS -->
+						
+					
+					
 				</section>
 				<!-- END TERTIARY AREA -->
 				
@@ -311,9 +322,6 @@
 									</div>
 									<!-- END REQUEST Widget -->
 									
-<<<<<<< HEAD
-									
-=======
 									<!-- BEGIN NEWSLETTER Widget -->
 									<div class="widget widget-newsletter">
 										<h4>Get our newsletter:</h4>
@@ -325,7 +333,6 @@
 										</form>
 									</div>
 									<!-- END NEWSLETTER Widget -->
->>>>>>> 060416bd9fbb94ad44173162ffc75a5d96ea9791
 									
 								</div>
 							</div>
@@ -434,7 +441,8 @@
 	================================================== -->
 	
 	<!-- initialize jQuery Library -->
-	<script src="js/jquery-1.8.1.min.js"></script>
+	<script src="../ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.8.1.min.js"><\/script>')</script>
 	<!-- Modernizr -->
 	<script type="text/javascript" src="js/modernizr.custom.14583.js"></script>
 	<!-- Superfish Menu -->

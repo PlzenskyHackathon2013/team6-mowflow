@@ -15,7 +15,7 @@
 		}
 	
 	/* Slider
-	---------------------------------------- */
+	---------------------------------------- 
 	#slider,
 	#intro-video-wrapper {
 		height:374px;
@@ -46,7 +46,7 @@
 	.flexslider .btn.large .btn-inner em {
 		font-size:12px;
 		}
-	
+	*/
 	
 	/* Media Holder
 	---------------------------------------- */
@@ -673,4 +673,35 @@ a.pp_close { right: 10px!important; top: 10px!important; }
 		}
 	
 	
+	}
+
+
+	#slider .container .grid_12 #obr1 img{
+
+	float:left;
+	width: 226px;
+	height: 200px;
+	padding-right: 20px;
+
+	}
+	#slider .container .grid_12 #obr2 img{
+
+		float:left;
+	width: 292px;
+	height: 200px;
+		padding-right: 20px;
+		}
+
+	#slider .container .grid_12 #obr3 img{
+
+		float:left;
+		width: 336px;
+		height: 200px;
+		padding-right: 20px;
+
+	}
+
+	#inter {
+
+		margin-top: 129px;
 	}

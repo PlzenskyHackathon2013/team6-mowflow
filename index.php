@@ -103,54 +103,15 @@
 			
 			
 			<!-- BEGIN SLIDER -->
-			<section id="slider" class="loading">
+			<section id="slider">
 				
 				<div class="container">
 					<div class="grid_12">
-						
-						<div class="flexslider">
-							<ul class="slides">
-								<!-- Begin Single Slide -->
-								<li>
-									<img src="images/sample/slide1.png" />
-									<div class="slide-caption">
-										<h2>Save time and money</h2>
-										<p>Lorem ipsum dolor sit amet, con- sectetur adipiscing elit. Curabitur id ante nisi. In imperdiet sem  ante nisiac eros vestibulum facilisis.</p>
-										<!-- .btn -->
-										<a href="#" class="btn large">
-											<span class="btn-inner">Buy theme<em>click here</em><i class="marker"></i></span>
-										</a>
-										<!-- //.btn -->
-									</div>
-								</li>
-								<!-- End Single Slide -->
-								<li>
-									<img src="images/sample/slide2.png" />
-									<div class="slide-caption">
-										<h2>cloud computing</h2>
-										<p>Lorem ipsum dolor sit amet, con- sectetur adipiscing elit. Curabitur id ante nisi. In imperdiet sem  ante nisiac eros vestibulum facilisis.</p>
-										<!-- .btn -->
-										<a href="#" class="btn large">
-											<span class="btn-inner">Buy theme<em>click here</em><i class="marker"></i></span>
-										</a>
-										<!-- //.btn -->
-									</div>
-								</li>
-								<li>
-									<img src="images/sample/slide3.png" />
-									<div class="slide-caption">
-										<h2>precise verification</h2>
-										<p>Lorem ipsum dolor sit amet, con- sectetur adipiscing elit. Curabitur id ante nisi. In imperdiet sem  ante nisiac eros vestibulum facilisis.</p>
-										<!-- .btn -->
-										<a href="#" class="btn large">
-											<span class="btn-inner">Buy theme<em>click here</em><i class="marker"></i></span>
-										</a>
-										<!-- //.btn -->
-									</div>
-								</li>
-							</ul>
-						</div>
-						
+						<div id="inter">
+							<div  id="obr1"><img src="images/step-1.png"/></div>	
+							<div  id="obr2"><img src="images/step-2.png"/></div>	
+							<div  id="obr3"><img src="images/step-3.png"/></div>
+						</div>	
 					</div>
 				</div>
 				
@@ -224,7 +185,6 @@
 				
 				<!-- BEGIN TERTIARY AREA -->
 				<section id="tertiary-home-area" class="home-area indent">
-					
 					
 						
 						<!-- BEGIN CUSTOMERS -->

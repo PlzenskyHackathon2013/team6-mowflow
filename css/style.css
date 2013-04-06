@@ -30,6 +30,17 @@ Tags: light, white, blue, green, one-column, two-columns, right-sidebar, custom-
 	font-size: 2em;
 	line-height: 1.5;
 }
+#love{
+	font-size: 7em;
+	font-family: monospace;
+	text-align: center;
+	margin:0;
+}
+#heart{
+	vertical-align: middle;
+	margin: 10px 30px;
+	height: 70px;
+}
 /* Top Header */
 #top-header {
 	background:#f7f7f7 url(../images/top-header-bg.png) 0 100% repeat-x;

@@ -26,12 +26,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.75660426"
-     inkscape:cx="259.74606"
-     inkscape:cy="-496.6828"
+     inkscape:zoom="0.18915106"
+     inkscape:cx="1193.7487"
+     inkscape:cy="-704.60474"
      inkscape:document-units="px"
-     inkscape:current-layer="layer4"
-     showgrid="true"
+     inkscape:current-layer="layer9"
+     showgrid="false"
      inkscape:window-width="1280"
      inkscape:window-height="738"
      inkscape:window-x="-8"
@@ -2873,7 +2873,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="bg"
-     style="display:none">
+     style="display:inline">
     <rect
        style="fill:#115c84;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect4137"
@@ -4730,7 +4730,7 @@
      id="layer4"
      inkscape:groupmode="layer">
     <g
-       id="g11320">
+       id="g11392">
       <g
          transform="matrix(1.911662,0,0,1.911662,-494.24395,507.1589)"
          id="g4236-8-5-4">
@@ -4819,18 +4819,18 @@
            transform="matrix(0.09179878,0,0,0.09179878,263.89649,799.61014)"
            id="g5583-7">
           <polygon
-             points="437.367,100.62 404.321,470.819 255.778,512 107.644,470.877 74.633,100.62 "
+             points="255.778,512 107.644,470.877 74.633,100.62 437.367,100.62 404.321,470.819 "
              id="polygon5474-5"
              transform="translate(-206.442,1400.8532)"
              style="fill:#ee8b16;fill-opacity:1" />
           <polygon
              id="polygon5480-4"
-             points="256,313.627 256,268.217 195.91,268.217 191.76,221.716 256,221.716 256,176.305 255.843,176.305 142.132,176.305 143.219,188.488 154.38,313.627 "
+             points="195.91,268.217 191.76,221.716 256,221.716 256,176.305 255.843,176.305 142.132,176.305 143.219,188.488 154.38,313.627 256,313.627 256,268.217 "
              style="fill:#115c84;fill-opacity:1"
              transform="translate(-206.442,1400.8532)" />
           <polygon
              id="polygon5482-1"
-             points="156.409,336.333 162.771,407.634 255.791,433.457 256,433.399 256,386.153 255.801,386.206 205.227,372.55 201.994,336.333 177.419,336.333 "
+             points="255.791,433.457 256,433.399 256,386.153 255.801,386.206 205.227,372.55 201.994,336.333 177.419,336.333 156.409,336.333 162.771,407.634 "
              style="fill:#115c84;fill-opacity:1"
              transform="translate(-206.442,1400.8532)" />
           <path
@@ -4855,12 +4855,12 @@
              style="fill:#ee8b16;fill-opacity:1" />
           <polygon
              id="polygon5496-4"
-             points="255.843,386.191 255.843,433.435 348.937,407.634 349.62,399.962 360.291,280.411 361.399,268.217 349.162,268.217 255.843,268.217 255.843,313.627 311.761,313.627 306.49,372.521 "
+             points="348.937,407.634 349.62,399.962 360.291,280.411 361.399,268.217 349.162,268.217 255.843,268.217 255.843,313.627 311.761,313.627 306.49,372.521 255.843,386.191 255.843,433.435 "
              style="fill:#115c84;fill-opacity:1"
              transform="translate(-206.442,1400.8532)" />
           <polygon
              id="polygon5498-6"
-             points="369.597,176.305 255.843,176.305 255.843,204.509 255.843,221.605 255.843,221.716 365.385,221.716 365.385,221.716 365.531,221.716 366.442,211.509 368.511,188.488 "
+             points="255.843,204.509 255.843,221.605 255.843,221.716 365.385,221.716 365.385,221.716 365.531,221.716 366.442,211.509 368.511,188.488 369.597,176.305 255.843,176.305 "
              style="fill:#115c84;fill-opacity:1"
              transform="translate(-206.442,1400.8532)" />
         </g>
@@ -4872,7 +4872,7 @@
          y="1216.3127"
          id="text5648-0"
          sodipodi:linespacing="125%"
-         transform="scale(0.75434475,1.3256538)"
+         transform="scale(0.75434476,1.3256538)"
          inkscape:transform-center-x="30.886425"
          inkscape:transform-center-y="-18.017115"><tspan
            sodipodi:role="line"
@@ -5536,6 +5536,19 @@
        style="fill:none;stroke:#ee8b16;stroke-width:3.4000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mendp)"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="D:\Devel\neco\firstapp\res\arrow.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer9"
+     inkscape:label="heart">
+    <path
+       style="fill:#ee8b16;fill-opacity:1;stroke:none;display:inline"
+       id="path834-1-05"
+       d="m 1498.3285,937.49092 c -11.5699,0.06 -22.6598,5.3849 -26.2331,14.6589 -12.1319,31.4867 22.6081,50.45748 32.2179,57.42278 7.5933,5.5036 19.3096,12.8614 24.8885,25.4948 5.5789,-12.6334 17.2688,-19.9912 24.8621,-25.4948 9.6098,-6.9653 44.3762,-25.93608 32.2443,-57.42278 -7.6231,-19.7847 -49.5062,-21.617 -57.1064,7.3822 -4.0376,-15.4058 -17.7608,-22.1096 -30.8733,-22.0411 z"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Devel\neco\firstapp\images\love.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
   </g>

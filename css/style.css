@@ -23,6 +23,9 @@ Tags: light, white, blue, green, one-column, two-columns, right-sidebar, custom-
 	
 /* #Header
 ================================================== */
+.right{
+	float:right;
+}
 
 /* Top Header */
 #top-header {
@@ -396,7 +399,7 @@ nav.primary {
 		}
 		.home-services li .img-holder {
 			float:right;
-			margin:0 120px 0 140px;
+			margin:0 12px 0 60px;
 			-webkit-transition: all 0.3s ease-out;
 			-moz-transition: all 0.3s ease-out;
 			transition: all 0.3s ease-out;
@@ -408,7 +411,7 @@ nav.primary {
 			}
 		.home-services li h3 {
 			padding:44px 0 0 0;
-			font-size:24px;
+			font-size:3.5em;
 			color:#88a919;
 			margin-bottom:.8em;
 			text-transform:none;
@@ -429,7 +432,7 @@ nav.primary {
 		}
 	.home-services li.even .img-holder {
 		float:left;
-		margin:0 140px 0 120px;
+		margin:0 60px 0 12px;
 		}
 		.home-services li:nth-child(even) .img-holder:hover {
 			-webkit-transform: rotate(30deg);

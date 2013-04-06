@@ -24,8 +24,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.5"
-     inkscape:cx="547.87291"
-     inkscape:cy="820.66106"
+     inkscape:cx="366.8247"
+     inkscape:cy="1220.6611"
      inkscape:document-units="px"
      inkscape:current-layer="layer4"
      showgrid="false"
@@ -2848,7 +2848,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2873,7 +2873,10 @@
      style="display:inline">
     <g
        id="g7406"
-       transform="translate(-19.178711,-88.669047)">
+       transform="matrix(1.9116621,0,0,1.9116621,-62.111088,-386.83128)"
+       inkscape:export-filename="D:\Devel\neco\firstapp\res\step-1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <g
          id="g4236"
          transform="translate(-331,-304)">
@@ -2965,7 +2968,7 @@
            style="fill:#ee8b16;fill-opacity:1;stroke:none" />
         <path
            transform="translate(19,50)"
-           d="m 358,71.362183 c 0,4.418278 -3.58172,8 -8,8 -4.41828,0 -8,-3.581722 -8,-8 0,-4.418278 3.58172,-8 8,-8 4.41828,0 8,3.581722 8,8 z"
+           d="m 358,71.362183 a 8,8 0 1 1 -16,0 8,8 0 1 1 16,0 z"
            sodipodi:ry="8"
            sodipodi:rx="8"
            sodipodi:cy="71.362183"
@@ -2980,7 +2983,7 @@
            style="fill:none;stroke:#ffffff;stroke-width:2.9000001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
         <path
            transform="translate(17,47.5)"
-           d="m 357,73.862183 c 0,2.761423 -2.23858,5 -5,5 -2.76142,0 -5,-2.238577 -5,-5 0,-2.761424 2.23858,-5 5,-5 2.76142,0 5,2.238576 5,5 z"
+           d="m 357,73.862183 a 5,5 0 1 1 -10,0 5,5 0 1 1 10,0 z"
            sodipodi:ry="5"
            sodipodi:rx="5"
            sodipodi:cy="73.862183"
@@ -3014,7 +3017,7 @@
              sodipodi:cy="147.36218"
              sodipodi:rx="10"
              sodipodi:ry="10"
-             d="m 195,147.36218 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52284 4.47715,-10 10,-10 5.52285,0 10,4.47716 10,10 z"
+             d="m 195,147.36218 a 10,10 0 1 1 -20,0 10,10 0 1 1 20,0 z"
              transform="translate(183.48528,98.242641)" />
           <path
              style="fill:#ee8b16;fill-opacity:1;stroke:none"
@@ -4485,8 +4488,11 @@
      inkscape:label="step-2"
      style="display:inline">
     <g
-       transform="translate(-162.32294,-194.56436)"
-       id="g7747-0">
+       transform="matrix(1.9116621,0,0,1.9116621,-538.9323,-375.13515)"
+       id="g7747-0"
+       inkscape:export-filename="D:\Devel\neco\firstapp\res\step-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <g
          id="g4236-8-0"
          transform="translate(-200.10366,93.525084)">
@@ -4578,7 +4584,7 @@
            style="fill:#ee8b16;fill-opacity:1;stroke:none" />
         <path
            transform="translate(19,50)"
-           d="m 358,71.362183 c 0,4.418278 -3.58172,8 -8,8 -4.41828,0 -8,-3.581722 -8,-8 0,-4.418278 3.58172,-8 8,-8 4.41828,0 8,3.581722 8,8 z"
+           d="m 358,71.362183 a 8,8 0 1 1 -16,0 8,8 0 1 1 16,0 z"
            sodipodi:ry="8"
            sodipodi:rx="8"
            sodipodi:cy="71.362183"
@@ -4593,7 +4599,7 @@
            style="fill:none;stroke:#ffffff;stroke-width:2.9000001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
         <path
            transform="translate(17,47.5)"
-           d="m 357,73.862183 c 0,2.761423 -2.23858,5 -5,5 -2.76142,0 -5,-2.238577 -5,-5 0,-2.761424 2.23858,-5 5,-5 2.76142,0 5,2.238576 5,5 z"
+           d="m 357,73.862183 a 5,5 0 1 1 -10,0 5,5 0 1 1 10,0 z"
            sodipodi:ry="5"
            sodipodi:rx="5"
            sodipodi:cy="73.862183"
@@ -4711,11 +4717,14 @@
      inkscape:label="step-3"
      style="display:inline">
     <g
-       id="g7467-5"
-       transform="translate(-8.5279572,-165.23252)">
+       id="g8059"
+       transform="matrix(1.0978001,0,0,1.0978001,-191.26366,590.04445)"
+       inkscape:export-filename="D:\Devel\neco\firstapp\res\step-3.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <g
          id="g4236-8-5-4"
-         transform="translate(-122.343,362.19325)">
+         transform="matrix(1.7413571,0,0,1.7413571,-275.98858,-75.501493)">
         <rect
            id="rect3806-1-5-0-2"
            class="st1"
@@ -4762,7 +4771,7 @@
            d="m 31.1812,826.29901 c 0,8.61045 -6.980149,15.5906 -15.5906,15.5906 C 6.9801494,841.88961 0,834.90946 0,826.29901 c 0,-8.61045 6.9801494,-15.5906 15.5906,-15.5906 8.610451,0 15.5906,6.98015 15.5906,15.5906 z" />
       </g>
       <g
-         transform="translate(-9.6568542,34.574756)"
+         transform="matrix(1.584635,0,0,1.584635,-51.904526,-510.43453)"
          id="g5629-3">
         <path
            style="fill:#ee8b16;fill-opacity:1;stroke:none"
@@ -4804,16 +4813,16 @@
              style="fill:#ee8b16;fill-opacity:1"
              transform="translate(-206.442,1400.8532)"
              id="polygon5474-5"
-             points="255.778,512 107.644,470.877 74.633,100.62 437.367,100.62 404.321,470.819 " />
+             points="74.633,100.62 437.367,100.62 404.321,470.819 255.778,512 107.644,470.877 " />
           <polygon
              transform="translate(-206.442,1400.8532)"
              style="fill:#115c84;fill-opacity:1"
-             points="195.91,268.217 191.76,221.716 256,221.716 256,176.305 255.843,176.305 142.132,176.305 143.219,188.488 154.38,313.627 256,313.627 256,268.217 "
+             points="256,221.716 256,176.305 255.843,176.305 142.132,176.305 143.219,188.488 154.38,313.627 256,313.627 256,268.217 195.91,268.217 191.76,221.716 "
              id="polygon5480-4" />
           <polygon
              transform="translate(-206.442,1400.8532)"
              style="fill:#115c84;fill-opacity:1"
-             points="156.409,336.333 162.771,407.634 255.791,433.457 256,433.399 256,386.153 255.801,386.206 205.227,372.55 201.994,336.333 177.419,336.333 "
+             points="256,433.399 256,386.153 255.801,386.206 205.227,372.55 201.994,336.333 177.419,336.333 156.409,336.333 162.771,407.634 255.791,433.457 "
              id="polygon5482-1" />
           <path
              style="fill:#ee8b16;fill-opacity:1"
@@ -4838,33 +4847,33 @@
           <polygon
              transform="translate(-206.442,1400.8532)"
              style="fill:#115c84;fill-opacity:1"
-             points="360.291,280.411 361.399,268.217 349.162,268.217 255.843,268.217 255.843,313.627 311.761,313.627 306.49,372.521 255.843,386.191 255.843,433.435 348.937,407.634 349.62,399.962 "
+             points="361.399,268.217 349.162,268.217 255.843,268.217 255.843,313.627 311.761,313.627 306.49,372.521 255.843,386.191 255.843,433.435 348.937,407.634 349.62,399.962 360.291,280.411 "
              id="polygon5496-4" />
           <polygon
              transform="translate(-206.442,1400.8532)"
              style="fill:#115c84;fill-opacity:1"
-             points="255.843,204.509 255.843,221.605 255.843,221.716 365.385,221.716 365.385,221.716 365.531,221.716 366.442,211.509 368.511,188.488 369.597,176.305 255.843,176.305 "
+             points="255.843,221.716 365.385,221.716 365.385,221.716 365.531,221.716 366.442,211.509 368.511,188.488 369.597,176.305 255.843,176.305 255.843,204.509 255.843,221.605 "
              id="polygon5498-6" />
         </g>
       </g>
       <text
-         inkscape:transform-center-y="-19.79899"
-         inkscape:transform-center-x="33.941125"
-         transform="scale(0.75434477,1.3256538)"
+         inkscape:transform-center-y="-18.017115"
+         inkscape:transform-center-x="30.886425"
+         transform="scale(0.75434476,1.3256538)"
          sodipodi:linespacing="125%"
          id="text5648-0"
-         y="712.39319"
-         x="200.08897"
-         style="font-size:190.89413452px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Centaur;-inkscape-font-specification:Centaur"
+         y="702.51025"
+         x="268.54648"
+         style="font-size:302.49752808px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Centaur;-inkscape-font-specification:Centaur"
          xml:space="preserve"><tspan
-           y="712.39319"
-           x="200.08897"
+           y="702.51025"
+           x="268.54648"
            id="tspan5650-7"
            sodipodi:role="line">{</tspan></text>
       <path
          style="fill:#ee8b16;fill-opacity:1;stroke:none"
          id="path834-1"
-         d="m 93.850023,880.07423 c -6.052277,0.0316 -11.853429,2.81683 -13.722655,7.66814 -6.346272,16.47083 11.826388,26.39454 16.853351,30.03813 3.972061,2.87898 10.100921,6.72789 13.019281,13.33649 2.91836,-6.6086 9.03343,-10.45751 13.00549,-13.33649 5.02696,-3.64359 23.21341,-13.5673 16.86714,-30.03813 -3.98768,-10.34946 -25.89691,-11.30796 -29.87263,3.86165 -2.1121,-8.05886 -9.29073,-11.56561 -16.149977,-11.52979 z"
+         d="m 100.48068,815.86609 c -10.539177,0.055 -20.641054,4.90511 -23.896044,13.35297 -11.051126,28.6816 20.593965,45.96232 29.347704,52.30711 6.91678,5.01333 17.58931,11.71566 22.67122,23.22359 5.0819,-11.50793 15.73042,-18.21026 22.6472,-23.22359 8.75373,-6.34479 40.42283,-23.62551 29.37171,-52.30711 -6.94397,-18.02211 -45.09577,-19.6912 -52.01891,6.72451 -3.67792,-14.03335 -16.17848,-20.13986 -28.12288,-20.07748 z"
          inkscape:connector-curvature="0" />
     </g>
   </g>

@@ -1,156 +1,543 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en">  <!--<![endif]-->
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Welcome to OpenShift</title>
-  <style>
-  html { 
-  background: black; 
-  }
-  body {
-    background: #333;
-    background: -webkit-linear-gradient(top, black, #666);
-    background: -o-linear-gradient(top, black, #666);
-    background: -moz-linear-gradient(top, black, #666);
-    background: linear-gradient(top, black, #666);
-    color: white;
-    font-family: "Helvetica Neue",Helvetica,"Liberation Sans",Arial,sans-serif;
-    width: 40em;
-    margin: 0 auto;
-    padding: 3em;
-  }
-  a {
-    color: white;
-  }
 
-  h1 {
-    text-transform: capitalize;
-    -moz-text-shadow: -1px -1px 0 black;
-    -webkit-text-shadow: 2px 2px 2px black;
-    text-shadow: -1px -1px 0 black;
-    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
-    background: #CC0000;
-    width: 22.5em;
-    margin: 1em -2em;
-    padding: .3em 0 .3em 1.5em;
-    position: relative;
-  }
-  h1:before {
-    content: '';
-    width: 0;
-    height: 0;
-    border: .5em solid #91010B;
-    border-left-color: transparent;
-    border-bottom-color: transparent;
-    position: absolute;
-    bottom: -1em;
-    left: 0;
-    z-index: -1000;
-  }
-  h1:after {
-    content: '';
-    width: 0;
-    height: 0;
-    border: .5em solid #91010B;
-    border-right-color: transparent;
-    border-bottom-color: transparent;
-    position: absolute;
-    bottom: -1em;
-    right: 0;
-    z-index: -1000;
-  }
-  h2 { 
-    margin: 2em 0 .5em;
-    border-bottom: 1px solid #999;
-  }
-
-  pre {
-    background: black;
-    padding: 1em 0 0;
-    -webkit-border-radius: 1em;
-    -moz-border-radius: 1em;
-    border-radius: 1em;
-    color: #9cf;
-  }
-
-  ul { 
-    margin: 0; 
-    padding: 0;
-  }
-  li {
-    list-style-type: none;
-    padding: .5em 0;
-  }
-
-  .brand {
-    display: block;
-    text-decoration: none;
-  }
-  .brand .brand-image {
-    float: left;
-    border: none;
-  }
-  .brand .brand-text {
-    float: left;
-    font-size: 24px;
-    line-height: 24px;
-    padding: 4px 0;
-    color: white;
-    text-transform: uppercase;
-  }
-  .brand:hover,
-  .brand:active {
-    text-decoration: underline;
-  }
-
-  .brand:before,
-  .brand:after {
-    content: ' ';
-    display: table;
-  }
-  .brand:after {
-    clear: both;
-  }
-  </style>
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>OptimaSales - Home</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	
+	<!-- CSS
+  ================================================== -->
+	<!-- Normalize default styles -->
+	<link rel="stylesheet" href="css/normalize.css" media="screen" />
+	<!-- Fonts -->
+	<link rel="stylesheet" href="css/fonts.css" media="screen" />
+	<!-- Skeleton grid system -->
+	<link rel="stylesheet" href="css/skeleton.css" media="screen" />
+	<!-- Base Template Styles-->
+	<link rel="stylesheet" href="css/base.css" media="screen" />
+	<!-- Superfish Menu-->
+	<link rel="stylesheet" href="css/superfish.css" media="screen" />
+	<!-- Template Styles-->
+	<link rel="stylesheet" href="css/style.css" media="screen" />
+	<!-- PrettyPhoto -->
+	<link rel="stylesheet" href="css/prettyPhoto.css" media="screen" />
+	<!-- Flexslider -->
+	<link rel="stylesheet" href="css/flexslider.css" media="screen" />
+	<!-- Layout and Media queries-->
+	<link rel="stylesheet" href="css/layout.css" media="screen" />
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" href="css/ie/ie8.css" media="screen" />
+	<![endif]-->
+	
+	
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	
+	
+	<!-- For Old Browsers
+	================================================== -->
+	<!--[if lt IE 8]>
+	<div style=' clear: both; text-align:center; position: relative;'>
+		<a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" alt="" /></a>
+	</div>
+	<![endif]-->
+	
+	
 </head>
-<body>
-  <a href="http://openshift.com" class="brand">
-    <img class="brand-image"
-      alt="OpenShift logo"
-      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAgCAYAAABU1PscAAAAAXNSR0IArs4c6QAAAAZiS0dEAAAAAAAA+UO7fwAAAAlwSFlzAAARHgAAER4B27UUrQAABUhJREFUWMPFWFlsVGUU/s5/70zbaSltA7RQpJ2lC9CFkQkWIgSJxkAhRA0JCYFq4hPG6JsoGKNCtPigxqhvGlPAuGIaE4igNaElbIW2yNL2tkOtTYGWCqWF2e79fCh7p1Bmpnge/3vuOef7z/nPJiTxMHS6pMRuu6YqFNTTAJYSyAU4GZB0AH2AGCANAfc5Qrba6T3HrmECScYLwCioSIcV2AjidQDZ45Q/LJRaWrLV03X89P8GwHB5XwG4DcDkGPWEBKimNrzN094efGQAzjm9GWHFr4R4LiHKgFaSL3r8zYcmHEBbkW+KFo7UEyhKsNeHlMgyV8eJo4kQpqId9ub6HCoc+XWcxl8lcBTATwDax8GfZtHa054/f/bNg8ZcnyOhHjBc834E8MJ9/vML8aYZQX1hd1PP3WFXkhMRfYkIlpOoGomc0WRRTnch+XAQWG2KTNJNLbuy68C/cQMwXOWrAKkdgz8A8kMdg9X5fn/gQcI7POXLaMk3AGbe/P8SbF0D1KcGRGXpIJJpIQkWBHhnsf/Ie3GF0DmnMxmQT8bg7RellXr8ze+Ox3gAcBvNf+iUUhH5FODLSvScAerDGpiVxTAyGUYKzICA34nCwbhDyHB7N4L8PAofhVzh9jfvjffR/ZZTnupIsR8G0C9EjW7Tfnii/dBgrPL0u83kmjHy33Z3Z/zG97uKi7xpWA8GHZpE1mcZRne8MvXblfbxqQAWR+Fp+mdW5hZPjAqu5JVlhrTwOgrXi2ABbjjchF4FYGvi0qhprgagjYod4OeldXWRWBUEtdBjEH4mwIJ7vF2V4Dqgot0+NEFdPAqmdZ5tAXA8Slx6LrpKsxMHQJge5ft1v0oe2OOu+PZ39+LCOFqImqiXo8JzAeBkXlnmnoKK9LgACJl2R9gELsHW1saUwKCpnbIoa8UMTokVgGXJmSjHkfNWUlWDy9d6USVdyoiEF8b1iElxQKHuPG1D/bCtVEBhCiykMQQFgCK2mN2sSx+tkdcbhGq7wKSkK9RnmsCG2xVSLsflAR1S6eloWhawtF8yGJGskSJDBdQR8pIjZMXcfFmm1gOg2lRaSRdT1AD1PBPQbCAyxcRMifCpc41HEtILNbh9s8SSvYTUmBp2LDGOdCOB1OD0XbeByWliwY5bugc9nU2T4wqhCx7PNAV9bSGwARp3TzVaP0j09GQUzJubLUgefY3SEHMh63MVr4FIlYL+7C1AlCwAmxM+/plYy6hhgN2xp1HBawAr72krnH3uoicTaXyHx7uIwKZoT0QhUhszAAI7x7ivL0a60/jp77yyTFrWt6N6rxE99c7OkxdiBhC2y/cAorXHpama/aNG8dkOO32b6p3zTzXmeysfPu4LkkKafA3IrGjfCfPtuGfiPlfx+xBsuWtwpa3zIuy2YaoZ5o0eSQc5TVnb53aeeAuk9eBtRvkqUH0MoTsqA7nL429eFzeA3lyfQ08eaiNgCrjTYNozQ1S+WyUfQCosTLqZ+oiDUNwhggPujpZTuCMXGwUV6cJgKYnNIJffR3df2NLLZ5871puQrUR//pzpU7rOnAfJP53eDELrsoPpk4RIGRn5xqIBAAdBOCAoBjBjPJsJUdZSt9HSOGFrld5cn2M4KbwfkIUJzqYhQlYWdJ7YN2FrFQCY3nPsmk61AuSuRNYyUdaiRBk/7tViR37Zcir1JYC8WNshgjWWPfhq0dmzVx/5bhQAWnLKU1Md8gZHOsjxAgmD2GEKq4s6m1sxASQPu16HiBh53goqPg9ac0TEcwNQEOBlQAZEcMgC94dDZt2c7r8GMIH0H43ZRDC51RVCAAAAAElFTkSuQmCC">
-    <div class="brand-text"><strong>Open</strong>Shift</div>
-  </a>
-  <h1>
-    Welcome to OpenShift
-  </h1>
-  <p>
-    Place your application here
-  </p>
-  <p>
-    In order to commit to your new project, go to your projects git repo (created with the rhc app create command).  Make your changes, then run:
-  </p>
-  <pre>
-    git commit -a -m 'Some commit message'
-    git push
-  </pre>
-  <p>
-    Then reload this page.
-  </p>
-  
-  <h2>
-    What's next?
-  </h2>
-  <ul>
-    <li>
-      Why not visit us at <a href="http://openshift.redhat.com">http://openshift.redhat.com</a>, or
-    </li>
-    <li>
-      You could get help in the <a href="http://www.redhat.com/openshift">OpenShift forums</a>, or
-    </li>
-    <li>
-      You're welcome to come chat with us in our IRC channel at #openshift on freenode.net
-    </li>
-  </ul>
+<body class="page home-page">
+
+	<!-- Primary Page Layout
+	================================================== -->
+	
+	<!-- BEGIN WRAPPER -->
+	<div id="wrapper">
+			
+			
+			<!-- BEGIN HEADER -->
+			<header id="header">
+				
+				<!--Main Header-->
+				<div id="main-header">
+					<div class="container">
+						<div class="grid_12">
+						
+							<!-- BEGIN LOGO -->
+							<div id="logo">
+								<!-- Image based Logo-->
+								<a href="index-2.html"><img src="images/logo.png" alt=""/></a>
+								
+								
+								<!-- Text based Logo
+								<h1><a href="index.html"><span>Optima</span>Sales</a></h1>
+								<p class="tagline">optimize your business</p>
+								-->
+								
+							</div>
+							<!-- END LOGO -->							
+						</div>
+					</div>
+				</div>
+				
+			</header>
+			<!-- END HEADER -->
+			
+			
+			<!-- BEGIN SLIDER -->
+			<section id="slider" class="loading">
+				
+				<div class="container">
+					<div class="grid_12">
+						
+						<div class="flexslider">
+							<ul class="slides">
+								<!-- Begin Single Slide -->
+								<li>
+									<img src="images/sample/slide1.png" />
+									<div class="slide-caption">
+										<h2>Save time and money</h2>
+										<p>Lorem ipsum dolor sit amet, con- sectetur adipiscing elit. Curabitur id ante nisi. In imperdiet sem  ante nisiac eros vestibulum facilisis.</p>
+										<!-- .btn -->
+										<a href="#" class="btn large">
+											<span class="btn-inner">Buy theme<em>click here</em><i class="marker"></i></span>
+										</a>
+										<!-- //.btn -->
+									</div>
+								</li>
+								<!-- End Single Slide -->
+								<li>
+									<img src="images/sample/slide2.png" />
+									<div class="slide-caption">
+										<h2>cloud computing</h2>
+										<p>Lorem ipsum dolor sit amet, con- sectetur adipiscing elit. Curabitur id ante nisi. In imperdiet sem  ante nisiac eros vestibulum facilisis.</p>
+										<!-- .btn -->
+										<a href="#" class="btn large">
+											<span class="btn-inner">Buy theme<em>click here</em><i class="marker"></i></span>
+										</a>
+										<!-- //.btn -->
+									</div>
+								</li>
+								<li>
+									<img src="images/sample/slide3.png" />
+									<div class="slide-caption">
+										<h2>precise verification</h2>
+										<p>Lorem ipsum dolor sit amet, con- sectetur adipiscing elit. Curabitur id ante nisi. In imperdiet sem  ante nisiac eros vestibulum facilisis.</p>
+										<!-- .btn -->
+										<a href="#" class="btn large">
+											<span class="btn-inner">Buy theme<em>click here</em><i class="marker"></i></span>
+										</a>
+										<!-- //.btn -->
+									</div>
+								</li>
+							</ul>
+						</div>
+						
+					</div>
+				</div>
+				
+			</section>
+			<!-- END SLIDER -->
+			
+			
+			<!-- BEGIN CONTENT HOLDER -->
+			<div id="content-wrapper" class="large-text">
+				
+				
+				<!-- BEGIN PRIMARY AREA -->
+				<section id="primary-home-area" class="home-area indent">
+					
+					<div class="container">
+						<div class="grid_12">
+						
+							<div class="intro-widget">
+								<h2>What is OptimaSales?</h2>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus libero justo, non egestas dolor. Donec a venenatis massa. Suspendisse ornare, lacus sed vestibulum egestas, velit lectus facilisis neque, at mattis augue dolor quis est. Morbi non lobortis magna. Vestibulum quis lectus sit amet nisi tempus cursus.
+							</div><!-- //.intro-widget -->
+						
+						</div>
+					</div>
+					
+				</section>
+				<!-- END PRIMARY AREA -->
+				
+				
+				<!-- BEGIN SECONDARY AREA -->
+				<section id="secondary-home-area" class="home-area indent">
+					
+					<div class="container">
+					
+						<div class="grid_12">
+							
+							<ul class="home-services">
+							
+								<li>
+									<figure class="img-holder">
+										<a href="#"><img src="images/service-img1.png" alt="" width="220" height="220" border="0" /></a>
+									</figure>
+									<h3><a href="#">Collaboration in real time</a></h3>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra turpis ac arcu cursus auctor. Integer sed odio orci. Nulla egestas iaculis rutrum. Donec non nisi sit amet massa fringilla interdum ut in magna. 
+								</li>
+								<li>
+									<figure class="img-holder">
+										<a href="#"><img src="images/service-img2.png" alt="" width="220" height="220" border="0" /></a>
+									</figure>
+									<h3><a href="#">Presice callculation</a></h3>
+									Cras urna leo, adipiscing sed pharetra quis, vehicula at enim. Fusce eu dolor lectus. Phasellus condimentum scelerisque auctor. Etiam nec justo magna. Etiam nec diam eu augue adipiscing bibendum. Donec quis augue lectus. 
+								</li>
+								<li>
+									<figure class="img-holder">
+										<a href="#"><img src="images/service-img3.png" alt="" width="220" height="220" border="0" /></a>
+									</figure>
+									<h3><a href="#">Professional support</a></h3>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus velit consectetur ligula rutrum vestibulum vel eget libero. Etiam volutpat tincidunt placerat. Phasellus consequat nunc eget orci gravida condimentum vel ut ligula. 
+								</li>
+								
+							</ul>
+							
+						</div>
+						
+					</div>
+					
+				</section>
+				<!-- END SECONDARY AREA -->
+				
+				
+				<!-- BEGIN TERTIARY AREA -->
+				<section id="tertiary-home-area" class="home-area indent">
+					
+					
+						
+						<!-- BEGIN CUSTOMERS -->
+						<div class="widget-carousel customers-list">
+							<div class="container">
+								<div class="grid_12">
+									<h2>Who are our customers?</h2>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus velit consectetur ligula rutrum vestibulum vel eget libero.  <a href="#">All customers</a></p>
+									
+									<!-- Elastislide Carousel -->
+									<div id="carousel1" class="es-carousel-wrapper">
+										<div class="es-carousel">
+											<ul>
+												<li><a href="#"><img src="images/sm-logo1.png" alt="Customer 1 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo2.png" alt="Customer 2 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo3.png" alt="Customer 3 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo4.png" alt="Customer 4 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo1.png" alt="Customer 1 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo2.png" alt="Customer 2 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo3.png" alt="Customer 3 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo4.png" alt="Customer 4 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo1.png" alt="Customer 1 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo2.png" alt="Customer 2 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo3.png" alt="Customer 3 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo4.png" alt="Customer 4 Info" /></a></li>
+											</ul>
+										</div>
+									</div><!-- End Elastislide Carousel -->
+									
+								</div>
+							</div>
+						</div>
+						<!-- END CUSTOMERS -->
+						
+						
+						<!-- BEGIN PARTNERS -->
+						<div class="widget-carousel clients-list">
+							<div class="container">
+								<div class="grid_12">
+									<h2>Who do we work with?</h2>
+									<p>orem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus velit consectetur ligula rutrum vestibulum vel eget libero. Etiam volutpat tincidunt placerat. Phasellus consequat nunc eget orci gravida condimentum vel ut ligula. <a href="#">All partners</a></p>
+									
+									<!-- Elastislide Carousel -->
+									<div id="carousel2" class="es-carousel-wrapper">
+										<div class="es-carousel">
+											<ul>
+												<li><a href="#"><img src="images/sm-logo1.png" alt="Customer 1 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo2.png" alt="Customer 2 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo3.png" alt="Customer 3 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo4.png" alt="Customer 4 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo1.png" alt="Customer 1 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo2.png" alt="Customer 2 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo3.png" alt="Customer 3 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo4.png" alt="Customer 4 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo1.png" alt="Customer 1 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo2.png" alt="Customer 2 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo3.png" alt="Customer 3 Info" /></a></li>
+												<li><a href="#"><img src="images/sm-logo4.png" alt="Customer 4 Info" /></a></li>
+											</ul>
+										</div>
+									</div><!-- End Elastislide Carousel -->
+									
+								</div>
+							</div>
+						</div>
+						<!-- END PARTNERS -->
+						
+					
+					
+				</section>
+				<!-- END TERTIARY AREA -->
+				
+				
+			</div>
+			<!-- END CONTENT HOLDER -->
+			
+			
+			<!-- BEGIN WIDGETS -->
+			<section id="widgets">
+				<div class="indent">
+					<div class="container">
+					
+						<div class="grid_2">
+							<!-- BEGIN NAV Widget -->
+							<div class="widget widget-nav">
+								<h4>Pages</h4>
+								<ul>
+									<li><a href="index-2.html">Home</a></li>
+									<li><a href="how-it-works.html">How it works</a></li>
+									<li><a href="services.html">Services</a></li>
+									<li><a href="events.html">Events</a></li>
+									<li><a href="about-us.html">About us</a></li>
+									<li><a href="contact-us.html">Contact us</a></li>
+								</ul>
+							</div>
+							<!-- END NAV Widget -->
+						</div>
+						
+						<div class="grid_3">
+							<!-- BEGIN SOCIAL LINKS Widget -->
+							<div class="widget widget-social">
+								<h4>Social media</h4>
+								<ul class="social-links">
+									<li class="facebook"><a href="#">Be a fan on Facebook</a></li>
+									<li class="twitter"><a href="#">Follow us on Twitter</a></li>
+									<li class="google-plus"><a href="#">Join us on Google Plus</a></li>
+									<li class="linkedin"><a href="#">Find us on Linkedin</a></li>
+									<li class="rss"><a href="#">RSS feed</a></li>
+									<li class="skype"><a href="#">Our Skype</a></li>
+								</ul>
+							</div>
+							<!-- END SOCIAL LINKS Widget -->
+						</div>
+						
+						<div class="grid_3">
+							<!-- BEGIN TWITTER Widget -->
+							<div class="widget widget-twitter">
+								<div id="twitter" class="twitter"></div>
+							</div>
+							<!-- END TWITTER Widget -->
+						</div>
+						
+						<div class="grid_4 colborder">
+							<div class="extra-widget-area">
+								<div class="inner">
+								
+									<!-- BEGIN REQUEST Widget -->
+									<div class="widget widget-request">
+										<h4>Demo version of application here:</h4>
+										<!-- .btn -->
+										<a href="#" class="btn full-w">
+											<span class="btn-inner">Live Demo<em>click here</em><i class="marker"></i></span>
+										</a>
+										<!-- //.btn -->
+									</div>
+									<!-- END REQUEST Widget -->
+									
+									<!-- BEGIN NEWSLETTER Widget -->
+									<div class="widget widget-newsletter">
+										<h4>Get our newsletter:</h4>
+										<form id="newsletter-form">
+											<input type="text" name="newsletter-text-input" id="newsletter-text-input" value="" placeholder="your email..." />
+											<div class="submit-holder">
+												<input type="submit" value=""/>
+											</div>
+										</form>
+									</div>
+									<!-- END NEWSLETTER Widget -->
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- END WIDGETS -->
+			
+			
+			<!-- BEGIN FOOTER -->
+			<footer id="footer">
+				<div class="container">
+					<div class="grid_12">
+						<small>&copy;2012 OptinaSales. All rights reserved.</small><a href="#">Privacy Policy</a> &nbsp; <a href="#">Security information</a>
+					</div>
+				</div>
+			</footer>
+			<!-- END FOOTER -->
+			
+		
+	</div>
+	<!-- END WRAPPER -->
+	
+	
+	<!-- BEGIN MODAL WINDOWS -->
+	<div id="signin" class="reveal-modal">
+		<header class="reveal-modal-header">
+			Sign in
+		</header>
+		<div class="cont">
+			<div class="indication">
+				classic
+			</div>
+			<form action="#" class="signin">
+				<p class="clearfix">
+					<label>Email:</label>
+					<input type="text" value="" />
+				</p>
+				<p class="clearfix">
+					<label>Password:</label>
+					<input type="text" value="" />
+				</p>
+				<p class="checkboxes without-label clearfix">
+					<span class="niceCheck"><input type="checkbox" name="ch1" /></span>
+					Remember me
+					<a href="#">Forgot password?</a>
+				</p>
+				<p class="without-label clearfix"><input type="submit" value="" /></p>
+			</form>
+			<div class="indication">
+				socials
+			</div>
+			<ul class="socials-login">
+				<li><a href="#" class="fb"></a></li>
+				<li><a href="#" class="tw"></a></li>
+			</ul>
+		</div>
+		<a class="close-reveal-modal">&#215;</a>
+	</div>
+
+	<div id="signup" class="reveal-modal">
+		<header class="reveal-modal-header">
+			Sign up
+		</header>
+		<div class="cont">
+			<form action="#" class="signup">
+				<p class="clearfix">
+					<em>(<abbr>*</abbr>) All fields are required</em>
+				</p>
+				<p class="clearfix">
+					<label>Full name:<abbr>*</abbr></label>
+					<input type="text" value="" />
+				</p>
+				<p class="clearfix">
+					<label>Email:<abbr>*</abbr></label>
+					<input type="text" value="" />
+				</p>
+				<p class="clearfix">
+					<label>Password:<abbr>*</abbr></label>
+					<input type="text" value="" />
+				</p>
+				<p class="clearfix">
+					<label>Password (repeat):<abbr>*</abbr></label>
+					<input type="text" value="" />
+				</p>
+				<p class="clearfix">
+					<label>User verification:<abbr>*</abbr></label>
+					<span class="captcha">
+						<img src="images/captcha.png" alt="" />
+					</span>
+				</p>
+				<p class="checkboxes clearfix">
+					<span class="niceCheck"><input type="checkbox" name="ch1" /></span>
+					I agree with OptimaSales Terms &amp; Privacy Policy
+				</p>
+				<p class="without-label clearfix"><input type="submit" value="" /></p>
+			</form>
+		</div>
+		<a class="close-reveal-modal">&#215;</a>
+	</div>
+	<!-- END MODAL WINDOWS -->
+	
+	
+	<!-- Javascript Files
+	================================================== -->
+	
+	<!-- initialize jQuery Library -->
+	<script src="../ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.8.1.min.js"><\/script>')</script>
+	<!-- Modernizr -->
+	<script type="text/javascript" src="js/modernizr.custom.14583.js"></script>
+	<!-- Superfish Menu -->
+	<script type="text/javascript" src="js/superfish.js"></script>
+	<!-- easing plugin -->
+	<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+	<!-- Prettyphoto -->
+	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+	<!-- Mobile Menu -->
+	<script type="text/javascript" src="js/jquery.mobilemenu.js"></script>
+	<!-- Twitter -->
+	<script type="text/javascript" src="js/jquery.twitter.js"></script>
+	<!-- Elastslide -->
+	<script type="text/javascript" src="js/jquery.elastislide.js"></script>
+	<!-- Custom Checkbox -->
+	<script type="text/javascript" src="js/jquery.checkbox.js"></script>
+	<!-- Flexslider -->
+	<script type="text/javascript" src="js/jquery.flexslider.js"></script>
+	<!-- Reveal Modal -->
+	<script type="text/javascript" src="js/jquery.reveal.js"></script>
+	
+	<!-- Custom -->
+	<script type="text/javascript" src="js/custom.js"></script>
+	
+	<!-- Flexslider Init -->
+	<script type="text/javascript">
+		
+		$(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "fade",
+				controlNav: false,
+				// Callback API
+				before: function(){},
+				after: function(){}, 
+        start: function(slider){
+          $('#slider').removeClass('loading');
+        }
+      });
+    });
+		
+	</script>
+	
+	
+	<script type="text/javascript">
+
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-34673973-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+
+	</script>
+	
 </body>
 </html>

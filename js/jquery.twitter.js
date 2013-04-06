@@ -10,8 +10,26 @@
 		http://creativecommons.org/licenses/by-nc/3.0/
 	*/
 	
+
+
+
 	$.fn.getTwitter = function(options) {
+		$.fn.getTwitter.defaults = {
+			userName: "#plzenskyhackathon",
+			numTweets: 5,
+			loaderText: "Loading tweets...",
+			slideIn: true,
+			slideDuration: 750,
+			showHeading: true,
+			headingText: "Latest Tweets",
+			showProfileLink: true,
+			showTimestamp: true,
+			includeRetweets: false,
+			excludeReplies: true
+		};
+
 		var o = $.extend({}, $.fn.getTwitter.defaults, options);
+		
 		
 		// hide container element
 		$(this).hide();

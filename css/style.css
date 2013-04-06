@@ -26,7 +26,10 @@ Tags: light, white, blue, green, one-column, two-columns, right-sidebar, custom-
 .right{
 	float:right;
 }
-
+.description{
+	font-size: 2em;
+	line-height: 1.5;
+}
 /* Top Header */
 #top-header {
 	background:#f7f7f7 url(../images/top-header-bg.png) 0 100% repeat-x;
@@ -428,7 +431,7 @@ nav.primary {
 				}
 	.home-services li:nth-child(even) .img-holder {
 		float:left;
-		margin:0 140px 0 120px;
+		margin:0 60px 0 12px;
 		}
 	.home-services li.even .img-holder {
 		float:left;

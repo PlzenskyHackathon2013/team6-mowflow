@@ -708,8 +708,7 @@ a.pp_close { right: 10px!important; top: 10px!important; }
 	float: left;
 	position: relative;
 	width: 37px;
-	padding-top:90x;
-	padding:90px 10px 0 10px;
+	padding: 86px 10px 0 10px;
 	/*padding-right: 20px;*/
 
 } 
@@ -718,7 +717,7 @@ a.pp_close { right: 10px!important; top: 10px!important; }
 	float: left;
 	position: relative;
 	width: 37px;
-	padding:90px 10px 0 10px;
+	padding:86px 10px 0 10px;
 	/*padding-right: 20px;*/
 } 
 	#inter {

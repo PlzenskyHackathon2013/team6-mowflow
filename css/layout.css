@@ -723,9 +723,41 @@ Note: Design for a width of 480px */
 	padding:90px 10px 0 10px;
 	/*padding-right: 20px;*/
 
+<<<<<<< HEAD
 } 
 #inter {
 	display: inline-block;
 	position: relative;
 	margin-top: 129px;
 }
+=======
+	#inter {
+		display: inline-block;
+		position: relative;
+		margin-top: 129px;
+		border: 1px black solid;
+	}
+
+	#slider #pruhl{
+
+        background: #000000;
+        position: relative;
+        height: 471px;
+        width: 100%;
+        z-index: 4;
+        line-height: 471px;
+        text-align: center;
+        display: none;
+        opacity: 0;
+    }
+
+    #logo2 {
+        /*display: inline-block;*/
+        display: none;
+        opacity: 0;
+        position: relative;
+        z-index: 2;
+        vertical-align: middle;
+    }
+}
+>>>>>>> 19f51649db3dd712e4a30225cf95aaa10764e4fc

@@ -738,3 +738,27 @@ a.pp_close { right: 10px!important; top: 10px!important; }
         z-index: 2;
         vertical-align: middle;
     }
+	}
+
+
+	#slider #pruhl{
+
+		background: #000000;
+		position: relative;
+		height: 471px;
+		width: 100%;
+		z-index: 4;
+		line-height: 471px;
+		text-align: center;
+		display: none;
+		opacity: 0;
+	}
+
+	#logo2 {
+		/*display: inline-block;*/
+		display: none;
+		opacity: 0;
+		position: relative;
+		z-index: 2;
+		vertical-align: middle;
+	}

@@ -13,9 +13,6 @@ function animateSlider(){
 	var endPosition = 0;
 	console.log(mappingImg.position().left);
 
-	/*var guiImgEndPosition = guiImg.position().left;*/
-	/*var exportImgEndPosition = exportImg.position().left;*/
-
 	var guiWidth = guiImg.width();
 	var guiHeight = guiImg.height();
 	var mappingWidth = mappingImg.width();
@@ -76,41 +73,4 @@ function animateSlider(){
 	});
 
 
-
-
-	/*console.log("gui end: " + guiImgEndPosition);*/
-	/*console.log("export left postion: " + exportImgEndPosition);*/
-
-	/*mappingImg.position({
-		left: startPosition
-	});*/
-
-
-	/*guiImg.animate({
-                left: 0
-    }, 500, function() {
-    	console.log("gui end: " + guiImg.position().left);
-    });*/
-
-	/*mappingImg.offset({
-		left: startPosition
-	});
-
-	exportImg.offset({
-		left: startPosition
-	});*/
-
-
-/*
-	guiImg.animate({
-                left: guiImgEndPosition + "px"
-    }, 500);
-
-    mappingImg.animate({
-                left: mappingImgEndPosition
-    }, 500);
-
-    exportImg.animate({
-                left: exportImgEndPosition
-            }, 500);*/
 }
